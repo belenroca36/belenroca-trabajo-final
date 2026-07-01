@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OrangeHRM - Suite E2E (Cucumber + TestNG)" verbose="1">
+    <test name="Flujo completo OrangeHRM">
+        <classes>
+            <class name="com.orangehrm.runner.TestRunner"/>
+        </classes>
+    </test>
+</suite>
